@@ -16,6 +16,10 @@
 		B35059862FB3ADFB00C78D91 /* TestingLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35059852FB3ADFB00C78D91 /* TestingLabTests.swift */; };
 		B35059902FB3ADFB00C78D91 /* TestingLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350598F2FB3ADFB00C78D91 /* TestingLabUITests.swift */; };
 		B35059922FB3ADFB00C78D91 /* TestingLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35059912FB3ADFB00C78D91 /* TestingLabUITestsLaunchTests.swift */; };
+		B350599F2FB3AE2C00C78D91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350599E2FB3AE2C00C78D91 /* User.swift */; };
+		B3A5BC5E2FB54302003ABE18 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5BC5D2FB54302003ABE18 /* NetworkManager.swift */; };
+		B3A5BC602FB54755003ABE18 /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5BC5F2FB54755003ABE18 /* MockNetwork.swift */; };
+		B3A5BC622FB549E0003ABE18 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5BC612FB549E0003ABE18 /* NetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B350598B2FB3ADFB00C78D91 /* TestingLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B350598F2FB3ADFB00C78D91 /* TestingLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLabUITests.swift; sourceTree = "<group>"; };
 		B35059912FB3ADFB00C78D91 /* TestingLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B350599E2FB3AE2C00C78D91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B3A5BC5D2FB54302003ABE18 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B3A5BC5F2FB54755003ABE18 /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
+		B3A5BC612FB549E0003ABE18 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 				B35059772FB3ADFB00C78D91 /* Assets.xcassets */,
 				B35059792FB3ADFB00C78D91 /* LaunchScreen.storyboard */,
 				B350597C2FB3ADFB00C78D91 /* Info.plist */,
+				B350599E2FB3AE2C00C78D91 /* User.swift */,
+				B3A5BC5D2FB54302003ABE18 /* NetworkManager.swift */,
 			);
 			path = TestingLab;
 			sourceTree = "<group>";
@@ -114,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				B35059852FB3ADFB00C78D91 /* TestingLabTests.swift */,
+				B3A5BC5F2FB54755003ABE18 /* MockNetwork.swift */,
+				B3A5BC612FB549E0003ABE18 /* NetworkManagerTests.swift */,
 			);
 			path = TestingLabTests;
 			sourceTree = "<group>";
@@ -258,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B350599F2FB3AE2C00C78D91 /* User.swift in Sources */,
 				B35059732FB3ADF600C78D91 /* ViewController.swift in Sources */,
+				B3A5BC5E2FB54302003ABE18 /* NetworkManager.swift in Sources */,
 				B350596F2FB3ADF600C78D91 /* AppDelegate.swift in Sources */,
 				B35059712FB3ADF600C78D91 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A5BC622FB549E0003ABE18 /* NetworkManagerTests.swift in Sources */,
+				B3A5BC602FB54755003ABE18 /* MockNetwork.swift in Sources */,
 				B35059862FB3ADFB00C78D91 /* TestingLabTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
